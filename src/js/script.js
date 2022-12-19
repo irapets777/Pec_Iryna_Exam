@@ -8,3 +8,9 @@ let slider = $(document).ready(function () {
   });
 });
 
+let menuBtn = document.querySelector('.burger__icon');
+let menu = document.querySelector('.burger__menu');
+menuBtn.addEventListener('click', function(){
+	menu.classList.toggle('active');
+})
+

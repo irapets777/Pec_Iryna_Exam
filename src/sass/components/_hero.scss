@@ -1,0 +1,31 @@
+.main{
+    font-family: Garamond;
+    margin-top: 20px;
+    &__title{
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+
+    &__description{
+        padding-right: 100px;
+        .text_big{
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+
+        .text_small{
+            font-size: 14px;
+        }
+    }
+
+    &__btn{
+        margin-top: 30px;
+        a{
+            text-transform: uppercase;
+            padding: 6px 12px;
+            border: 1px solid #DEDEDE;
+            border-radius: 5px;
+            color: #B0B0B0;
+        }
+    }
+}
