@@ -1,13 +1,14 @@
 .main{
     font-family: Garamond;
     margin-top: 20px;
+    padding: 0;
     &__title{
         font-size: 48px;
         margin-bottom: 20px;
     }
 
     &__description{
-        padding-right: 100px;
+        padding-right: 150px;
         .text_big{
             font-size: 18px;
             margin-bottom: 10px;
@@ -27,5 +28,26 @@
             border-radius: 5px;
             color: #B0B0B0;
         }
+    }
+
+    &__img{
+        width: 100vw;
+        img{
+            width: 100%;
+        }
+    }
+
+    .line_top{
+        height: 1px;
+        max-width: 70%;
+        background-color: #DEDEDE;
+        margin-left: 50px;
+    }
+
+    .line{
+        height: 1px;
+        max-width: 50%;
+        background-color: #DEDEDE;
+        margin-left: 12px;
     }
 }

@@ -1,13 +1,20 @@
 .story{
+    font-family: Garamond;
     &__title{
-        font-size: 24px;
+        
+        font-size: 34px;
+        margin-bottom: 30px;
+        padding-left: 50px;
     }
 
     &__description{
         font-size: 18px;
+        margin-bottom: 30px;
+        padding: 0 50px;
     }
 
     &__btn{
+        padding-left: 50px;
         a{
             text-transform: uppercase;
             padding: 6px 12px;
@@ -15,6 +22,20 @@
             border-radius: 5px;
             color: #B0B0B0;
         }
+    }
+
+    .line_top{
+        height: 1px;
+        max-width: 50%;
+        background-color: #DEDEDE;
+        margin-left: 362px;
+    }
+
+    .line{
+        height: 1px;
+        max-width: 70%;
+        background-color: #DEDEDE;
+        
     }
 
 }
