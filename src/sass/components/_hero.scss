@@ -5,10 +5,14 @@
     &__title{
         font-size: 48px;
         margin-bottom: 20px;
+        font-weight: 700;
+        @media screen and (max-width: 992px) {
+            font-size: 32px;
+        }
     }
 
     &__description{
-        padding-right: 150px;
+        
         .text_big{
             font-size: 18px;
             margin-bottom: 10px;
@@ -34,20 +38,21 @@
         width: 100vw;
         img{
             width: 100%;
+            @media screen and (max-width: 768px){
+                padding-bottom: 30px;
+            }
         }
     }
 
     .line_top{
-        height: 1px;
-        max-width: 70%;
-        background-color: #DEDEDE;
-        margin-left: 50px;
-    }
-
-    .line{
-        height: 1px;
-        max-width: 50%;
-        background-color: #DEDEDE;
-        margin-left: 12px;
+        border-top: 1px solid grey;
+        max-width: 98%;
+        margin: 0 auto;
+        @media screen and (max-width: 1200px){
+            max-width: 97%;
+        }
+        @media screen and (max-width: 768px){
+            display: none;
+        }
     }
 }

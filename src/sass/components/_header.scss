@@ -17,7 +17,7 @@ $var1: #000;
     }
 
     &__nav{
-        @media screen and(max-width:600px){
+        @media screen and(max-width:768px){
             display: none;
         }
         ul{
@@ -33,7 +33,7 @@ $var1: #000;
     }
 
     &__socialmedia{
-        @media screen and(max-width:850px){
+        @media screen and(max-width:992px){
             display: none;
         }
         ul{
@@ -58,7 +58,7 @@ $var1: #000;
         position: relative;
         z-index:2;
         overflow: hidden;
-        @media screen and(max-width:600px){
+        @media screen and(max-width:768px){
             display: block;
         }
     }

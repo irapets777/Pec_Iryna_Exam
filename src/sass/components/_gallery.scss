@@ -2,5 +2,24 @@
     &__title{
         font-family: Garamond;
         font-size: 34px;
+        text-align: center;
+        padding: 30px 0;
+    }
+
+    img{
+        width: 25%;
+        height: 50%;
+    }
+
+    .line_top{
+        border-top: 1px solid grey;
+        max-width: 98%;
+        margin: 0 auto;
+        @media screen and (max-width: 1200px){
+            max-width: 97%;
+        }
+        @media screen and (max-width: 768px){
+            display: none;
+        }
     }
 }

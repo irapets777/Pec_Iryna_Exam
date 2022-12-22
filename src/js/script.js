@@ -1,6 +1,6 @@
 let slider = $(document).ready(function () {
   $('.your-class').slick({
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     arrows: true,
     dots: true,
@@ -13,4 +13,3 @@ let menu = document.querySelector('.burger__menu');
 menuBtn.addEventListener('click', function(){
 	menu.classList.toggle('active');
 })
-
