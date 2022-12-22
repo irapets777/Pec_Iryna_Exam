@@ -1,10 +1,11 @@
 let slider = $(document).ready(function () {
   $('.your-class').slick({
-    slidesToShow: 3,
+    slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
-    dots: true,
-    infinite: true
+    dots: false,
+    infinite: true,
+    
   });
 });
 

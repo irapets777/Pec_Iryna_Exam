@@ -1,0 +1,28 @@
+.features{
+    &__title{
+        font-family: Garamond;
+        font-size: 34px;
+        text-align: center;
+        padding: 30px 0;
+    }
+    
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+
+        .grid-item {
+            border: 1px solid rgba(192, 191, 191, 0.4);
+            padding: 20px;
+            font-size: 30px;
+            text-align: center;
+            font-size: 12px;
+
+            h4{
+                padding: 10px 0;
+            }
+        }
+    }
+   
+}
