@@ -6,11 +6,6 @@
         padding: 30px 0;
     }
 
-    // img{
-    //     width: 25%;
-    //     height: 50%;
-    // }
-
     .line_top{
         border-top: 1px solid #DEDEDE;
         max-width: 98%;
@@ -24,6 +19,7 @@
     }
 
     .template{
+        position: relative;
         .your-class{
             cursor: pointer;
             
@@ -35,9 +31,10 @@
             }.slick-arrow{
                 position: absolute;
                 background: url(../img/left.svg) 0 0 / 100% no-repeat;
+                transform: rotate(180deg);
                 width: 30px;
                 height: 55px;
-                transform: rotate(180deg);
+               
                 font-size: 0;
                 border: none;
                 top: 45%;
@@ -59,7 +56,7 @@
                     width: 15px;
                     height: 30px;
                 }
-             
+               
                 &.slick-next{
                    right: 0;
                    background: url(../img/left.svg) 0 0 / 100% no-repeat;

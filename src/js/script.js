@@ -14,3 +14,5 @@ let menu = document.querySelector('.burger__menu');
 menuBtn.addEventListener('click', function(){
 	menu.classList.toggle('active');
 })
+
+
