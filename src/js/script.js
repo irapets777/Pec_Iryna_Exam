@@ -1,5 +1,5 @@
 let slider = $(document).ready(function () {
-  $('.your-class').slick({
+  $('.gallery__slider').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
     arrows: true,
