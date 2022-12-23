@@ -41,4 +41,10 @@
     .textarea{
         flex: auto;
     }
+
+    .form-check-input:checked {
+        background-color: #5c5c5e;
+        border-color: #060607;
+    }
+
 }

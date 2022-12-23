@@ -11,19 +11,61 @@
         display: grid;
         grid-template-columns: auto auto auto;
         padding: 10px;
-
+        @media screen and(max-width:992px){
+            grid-template-columns: auto auto;
+        }
+        @media screen and(max-width:768px){
+            grid-template-columns: auto;
+        }
         .grid-item {
-            border: 1px solid rgba(192, 191, 191, 0.4);
-
             padding: 20px;
             font-size: 30px;
             text-align: center;
             font-size: 12px;
-
             h4{
                 padding: 10px 0;
             }
         }
+
+        .one, .four, .two, .five{
+            border-right: 1px solid rgba(192, 191, 191, 0.4);
+        }
+
+        .one, .two, .three{
+            border-bottom: 1px solid rgba(192, 191, 191, 0.4);
+        }
+
+        .two, .four{
+            @media screen and(max-width:992px){
+                border-right: none;
+            }
+        }
+
+        .three, .four{
+            @media screen and(max-width:992px){
+                border-bottom: 1px solid rgba(192, 191, 191, 0.4);
+            }
+        }
+
+        .three{
+            @media screen and(max-width:992px){
+                border-right: 1px solid rgba(192, 191, 191, 0.4);
+            }
+        }
+
+        .one, .three, .five{
+            @media screen and(max-width:768px){
+                border-right: none;
+            }
+        }
     }
-   
+
+
+
+
+
+      
+
+
 }
+   
