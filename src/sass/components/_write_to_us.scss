@@ -31,6 +31,9 @@
     }
     .form-check-input{
         margin: 0;
+        &:focus{
+            box-shadow: #5c5c5e;
+        }
     }
     .form-check{
         padding: 0;
@@ -46,5 +49,4 @@
         background-color: #5c5c5e;
         border-color: #060607;
     }
-
 }
