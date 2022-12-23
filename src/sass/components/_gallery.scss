@@ -20,6 +20,7 @@
 
     &__template{
         position: relative;
+        z-index: 10;
         .gallery__slider{
             cursor: pointer;
             
@@ -28,9 +29,10 @@
                 img{
                     width: 100%;
                 }
-            }.slick-arrow{
+            }
+            .slick-arrow{
                 position: absolute;
-                background: url(../img/left.svg) 0 0 / 100% no-repeat;
+                background: url('../img/left.svg') 0 0 / 100% no-repeat;
                 transform: rotate(180deg);
                 width: 30px;
                 height: 55px;
@@ -59,7 +61,7 @@
                
                 &.slick-next{
                    right: 0;
-                   background: url(../img/left.svg) 0 0 / 100% no-repeat;
+                   background: url('../img/left.svg') 0 0 / 100% no-repeat;
                    transform: rotate(360deg);
                 }
                }
