@@ -23,10 +23,14 @@ $var1: #000;
         ul{
             display: flex;
             li{
+                :hover{
+                    color: #B0B0B0;
+                }
                 a{
                     padding-left: 20px;
                     color: $var1;
                     white-space: nowrap;
+                   
                 }
             }
         }
@@ -38,7 +42,10 @@ $var1: #000;
         }
         ul{
             display: flex;
-            li{
+            li{ 
+                &:hover{
+                    transform: scale(1.5);
+                }
                 a{
                     padding-left: 20px;
                 }
