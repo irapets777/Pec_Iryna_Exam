@@ -28,11 +28,11 @@
         }
 
         .one, .four, .two, .five{
-            border-right: 1px solid rgba(192, 191, 191, 0.4);
+            border-right: 1px solid $var5;
         }
 
         .one, .two, .three{
-            border-bottom: 1px solid rgba(192, 191, 191, 0.4);
+            border-bottom: 1px solid $var5;
         }
 
         .two, .four{
@@ -43,13 +43,13 @@
 
         .three, .four{
             @media screen and(max-width:992px){
-                border-bottom: 1px solid rgba(192, 191, 191, 0.4);
+                border-bottom: 1px solid $var5;
             }
         }
 
         .three{
             @media screen and(max-width:992px){
-                border-right: 1px solid rgba(192, 191, 191, 0.4);
+                border-right: 1px solid $var5;
             }
         }
 

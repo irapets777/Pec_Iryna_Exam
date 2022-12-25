@@ -15,9 +15,12 @@
         a{
             text-transform: uppercase;
             padding: 6px 12px;
-            border: 1px solid #DEDEDE;
+            border: 1px solid $var4;
             border-radius: 5px;
-            color: #B0B0B0;
+            color: $var2;
+            &:hover{
+                background-color: $var4;
+            }
         }
     }
 
@@ -33,7 +36,7 @@
 
 
     .line_top{
-        border-top: 1px solid #DEDEDE;
+        border-top: 1px solid $var4;
         max-width: 98%;
         margin: 0 auto;
         @media screen and (max-width: 1200px){

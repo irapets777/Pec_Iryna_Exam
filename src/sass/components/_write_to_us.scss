@@ -5,36 +5,48 @@
         text-align: center;
         padding: 30px 0;
     }
-    .form-control{
-        width: 90%;
-        @media screen and (max-width: 768px) {
-            width: 100%;
+
+    &__form{
+        .form-control{
+            width: 90%;
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
         }
-    }
-    .form1{
-        display: flex;
-        @media screen and (max-width: 768px) {
-            display: block;
+
+        .form-contact-me{
+            display: flex;
+            @media screen and (max-width: 768px) {
+                display: block;
+            }
+
+            h4{
+                white-space: nowrap;
+                @media screen and (max-width: 768px) {
+                    padding-bottom: 20px;
+                }
+
+            .form-radio{
+                    white-space: nowrap;
+                    @media screen and (max-width: 768px) {
+                        margin: 0;
+                    }
+
+                    .form-check-input{
+                        margin: 0;
+                        &:focus{
+                            box-shadow: $var6;
+                        }
+                    }
+            }
         }
+ 
+   
     }
-    h4{
-        white-space: nowrap;
-        @media screen and (max-width: 768px) {
-            padding-bottom: 20px;
-        }
+  
     }
-    .form-radio{
-        white-space: nowrap;
-        @media screen and (max-width: 768px) {
-            margin: 0;
-        }
-    }
-    .form-check-input{
-        margin: 0;
-        &:focus{
-            box-shadow: #5c5c5e;
-        }
-    }
+  
+
     .form-check{
         padding: 0;
     }
@@ -46,7 +58,7 @@
     }
 
     .form-check-input:checked {
-        background-color: #5c5c5e;
-        border-color: #060607;
+        background-color: $var6;
+        border-color: $var7;
     }
 }

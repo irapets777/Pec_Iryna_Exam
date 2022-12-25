@@ -3,21 +3,21 @@
     margin-top: 30px;
     &__socialmedia{
         padding-top: 30px;
-        border-top: 1px solid #DEDEDE;
+        border-top: 1px solid $var4;
         ul{
             display: flex;
             justify-content: center;
             li{
                 a{
                     img{
-                        border: 1px solid #DEDEDE;
+                        border: 1px solid $var4;
                         border-radius: 50%;
                         padding: 10px;
                         width: 40px;
                         height: 40px;
                         margin: 0 5px;
                         &:hover{
-                            background-color: #B0B0B0;
+                            background-color: $var2;
                         }
                     }
                 }
@@ -30,7 +30,7 @@
         margin-top: 10px;
         display: flex;
         justify-content: center;
-        border-bottom: 1px solid #DEDEDE;
+        border-bottom: 1px solid $var4;
         margin-bottom: 20px;
     }
  
