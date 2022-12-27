@@ -20,6 +20,7 @@
             color: $var2;
             &:hover{
                 background-color: $var4;
+                transition: 0.4s;
             }
         }
     }

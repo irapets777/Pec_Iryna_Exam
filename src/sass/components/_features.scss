@@ -18,6 +18,7 @@
             grid-template-columns: auto;
         }
         .grid-item {
+            cursor: pointer;
             padding: 20px;
             font-size: 30px;
             text-align: center;
@@ -59,13 +60,6 @@
             }
         }
     }
-
-
-
-
-
-      
-
 
 }
    
