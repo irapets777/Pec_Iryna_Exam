@@ -8,7 +8,7 @@
 
     &__form{
         .form-control{
-            width: 90%;
+            width: 95%;
             @media screen and (max-width: 768px) {
                 width: 100%;
             }
@@ -39,32 +39,32 @@
                     }
                 }
             }
-
         }
     }
-  
-    // .form{
-    //     display: flex;
-    //     .form-select{
-    //         flex: auto;
-    //     }
-    // }
+
+    }
+
+    .form-topic{
+        margin: 0 auto;
+        width: 100%;
+        .form-select{
+            flex: auto;
+        }
     }
     
-
-
-    // .form-check{
-    //     padding: 0;
-    // }
-    .form-check-label{
-        margin-left: 10px;
-    }
     .textarea{
         flex: auto;
+        padding: 10px 0 0 10px;
+
+    }
+
+    .form-check-label{
+        margin-left: 10px;
     }
 
     .form-check-input:checked {
         background-color: $var6;
         border-color: $var7;
     }
+
 }
