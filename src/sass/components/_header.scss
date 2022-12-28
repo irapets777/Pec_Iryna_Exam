@@ -9,8 +9,14 @@
             text-transform: uppercase;
             padding-right: 10px;
             white-space: nowrap;
-            position: relative;
-            z-index: 20;
+            @media screen and(max-width:768px){
+                position: fixed;
+                top: 1;
+                left: 10px;
+                z-index: 20;
+                opacity: 0.2;
+            }
+           
         }
       
     }
@@ -24,12 +30,12 @@
             li{
                 :hover{
                     color: $var2;
+                    transition: 0.3s;
                 }
                 a{
                     padding-left: 20px;
                     color: $var1;
                     white-space: nowrap;
-                   
                 }
             }
         }
@@ -66,6 +72,9 @@
         overflow: hidden;
         @media screen and(max-width:768px){
             display: block;
+            position: fixed;
+            top: 0;
+            right: 10;
         }
     }
 
@@ -120,7 +129,7 @@
             margin-top: 70px;
             ul{
                 display: flex;
-                justify-content: center;
+                justify-content: space-evenly;
                 align-items: center;
                 li{
                     a{

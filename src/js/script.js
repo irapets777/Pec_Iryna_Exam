@@ -15,6 +15,9 @@ menuBtn.addEventListener('click', function(){
 	menu.classList.toggle('active');
 })
 
+$('.burger__menu a').on('click', function(e){
+  $('.burger__menu').toggleClass('active');
+})
 
 
 
